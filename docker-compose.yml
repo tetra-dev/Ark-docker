@@ -3,12 +3,12 @@ ark:
   image: turzam/ark
   environment:
     - SESSIONNAME=Ark Docker
-    - SERVERMAP=TheIsland
+    - SERVERMAP=Ragnarok
     - SERVERPASSWORD="" 
     - ADMINPASSWORD=adminpassword
     - BACKUPONSTART=1
     - UPDATEONSTART=1
-    - TZ=Europe/Paris
+    - TZ=Asia/Tokyo
     - GID=1000
     - UID=1000
   volumes:
